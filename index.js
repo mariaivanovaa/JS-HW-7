@@ -9,7 +9,17 @@ array2.push("четвертий рядок");
 console.log(array2);
 
 // 3
-// ???
+const numbers = [4, 6, 2, 10, 9];
+
+let result = 0;
+
+for (let index = 0; index < numbers.length; index++) {
+    const element = numbers[index];
+    console.log(element);
+    result = result + element;
+}
+
+console.log(result);
 
 // 4
 let array4 = [1, 3, 5, 2, 4];
